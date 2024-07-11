@@ -1,0 +1,57 @@
+// file: notes.txt
+
+I don't know why I didn't put this in here before.
+I am restarting working on this at the end of June 2024.
+
+- [x]  A route exists to create new resources.
+- [x]  A route exists to read all resources.
+- [x]  A route exists to read a single resource.
+- [x]  A route exists to update a single resource.
+- [x]  A route exists to delete a single resource.
+- [x]  An appropriate "Not Found" response is given when a route is requested that does not match the created routes.
+
+installed npm i react-router-dom  on the client side. Hope that was right.
+
+In the back end in app.js (Except I have this in index.js instead):
+    const express = require('express');
+    const app = express();
+
+    // TODO: Add application-wide middleware
+    app.use(cors());
+    // TODO: Add controller(s)
+    // TODO: Implement health check route
+
+module.exports = app;
+
+=================
+In client, added .env and the following folders under src: components, images, and pages.
+
+I also added the following pages:
+ - About.jsx
+ - Administration.jsx
+ - Gallery.jsx
+ - PageNotFound.jsx
+ - HomePage.jsx
+
+ Added the following components:
+ Header.jsx LoginModal.jsx Navbar.jsx Footer.jsx 
+ - FAQ.jsx and filled in with dummy text.
+ - PrivacyPolicy.jsx and filled in basic template.
+ - TermsOfService.jsx and filled in basic template.
+
+ July 1, 2024
+ Added the backend into a repo on Github.
+ Installed Axios library into the front end.
+ Looked at capstone backend and added folders for controllers, db, queries, tests, and validations. 
+
+
+ July 7, 2024
+ July 10, 2024
+ - add schema under db
+ - not finished with Schema. 
+ - added queries for relationships and occasions
+
+
+
+
+
