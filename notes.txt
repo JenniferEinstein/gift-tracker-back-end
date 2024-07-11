@@ -50,6 +50,9 @@ I also added the following pages:
  - add schema under db
  - not finished with Schema. 
  - added queries for relationships and occasions
+ - added remove relationship form and add relationship form in front end.
+ - copied the dbConfig.js from the in class hackathon deployment
+ -added a routes folder on server side and a relationships file under that. Is that right?
 
 
 
